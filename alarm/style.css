@@ -1,0 +1,63 @@
+body{
+    width:100%;
+    height:100%;
+    background-image: url("https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4da66c6d53bd427da56c753bea06d748~tplv-k3u1fbpfcp-zoom-1.image");
+    background-size: cover;
+    background-repeat: none;
+}
+.container{
+    width:350px;
+    height:350px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 800px;
+    border:2px solid rgba(177, 149, 253, 0.849);
+    border-radius: 50px;
+    box-shadow:  5px 5px 2px rgb(187, 137, 187);
+
+}
+.content{
+    margin-top: 10px;
+    display:flex;
+    gap:5px;
+    font-size: 2rem;
+}
+#but{
+    margin-top: 30px;
+    font-size: 19px;
+    border:2px solid rgba(221, 224, 224, 0.849);
+    border-radius: 50px;
+    outline:none;
+    background-color: antiquewhite;
+}
+#but:hover{
+    box-shadow:  5px 5px 2px rgb(187, 137, 187);
+}
+.column select{
+    font-size: 19px;
+    border:1px solid rgba(221, 224, 224, 0.849);
+    border-radius: 2px;
+    /* border:none; */
+    outline:none;
+    height:43px;
+    width:100%;
+    background-color: rgb(206, 157, 252);
+    transition: background-color 0.5s ease;
+}
+.column select:hover{
+    box-shadow:  5px 5px 2px rgb(187, 137, 187);
+    background-color: whitesmoke;
+}
+p{
+    font-size:2rem;
+}
+.container #but .disable{
+    opacity:0.6;
+    pointer-events: none;
+}
+.container h1 .dis{
+   opacity: 1;
+}
